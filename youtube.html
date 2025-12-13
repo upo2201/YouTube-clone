@@ -5,28 +5,59 @@
         <style>
             .thumbnail{
                 width:300px;
-                object-fit: contain;
-                object-position: top;
-                border-width: 2px;
-                border-style: solid;
-                border-color: red;
+                display: block;
             }
             .search-bar{
-               
+               display: block;
+            }
+            .video-title{
+                width: 300px;
+            }
+            .video-preview{
+                width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
+            }
+            .channel-picture{
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+            }
+            .channel-info{
+                display: inline-block;
+                width: 200px;
+            }
+            .profile-picture{
+                width: 100%;
+            }
+            .video-title{
+                margin-top:0;
             }
         </style>
     </head>
     <body>
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-        <input class="search-bar" type="text" placeholder="Search">
-         <p class="video-title">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">
-      Marques Brownlee
-    </p>
-    <p class="video-stats">
-      3.4M views &#183; 6 months ago
-    </p>
+        <input class="search-bar" type="text" placeholder="Search">  
+        <div class="video-preview">
+            <div>
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </div>
+            <div>
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+                </div>
+                <div class="channel-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>    
+            </div>    
+        </div>
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+        </div>
     </body>
 </html>
