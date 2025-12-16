@@ -158,5 +158,6 @@
 
 .current-user-picture {
   height: 32px;
-  border-radius: 16px;
+  width: 32px;
+  border-radius: 50%;
 }
