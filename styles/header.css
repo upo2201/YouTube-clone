@@ -110,7 +110,7 @@
   width: 40px;
   border-radius: 20px;
   border: none;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245);    
 }
 
 .voice-search-icon {
@@ -160,4 +160,4 @@
   height: 32px;
   width: 32px;
   border-radius: 50%;
-}
+} 
